@@ -1,0 +1,40 @@
+.Navbar{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.NavbarTop{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.NavInput{
+    padding: 0px 20px;
+    
+}
+.NavTopRight{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0px 10px;
+    width: 200px;
+}
+.NavLogo{
+    padding:  0px 10px;
+}
+.searchIcon{
+    border: 2px solid white;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+.SignIn:hover{
+  text-decoration: underline;
+  
+}
+.SignIn{padding: 10px 10px;}
+MenuItem:hover{
+text-decoration: underline;
+}
+.ListsLogo:hover{
+    font-weight: bold;
+}
