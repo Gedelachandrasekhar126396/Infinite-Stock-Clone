@@ -1,10 +1,13 @@
 .Navbar{
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+ position: sticky;
+ top: 0px;
+ z-index: 100;
 }
 .NavbarTop{
     padding: 10px;
     display: flex;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .NavInput{
     padding: 0px 20px;
@@ -37,4 +40,28 @@ text-decoration: underline;
 }
 .ListsLogo:hover{
     font-weight: bold;
+}
+.NavbarBottom{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+}
+.furnitureLabel:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.item1{
+    display: flex;
+    background-color: none;padding: 10px;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    text-decoration: underline;
+
+}
+.firstElementinLIst{
+    font-weight: bold;
+    color: black;
+    padding:  6px 0px;
 }

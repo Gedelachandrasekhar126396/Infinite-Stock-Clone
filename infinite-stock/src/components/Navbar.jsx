@@ -10,7 +10,7 @@ export default function Navbar(){
             
             <div ><img src= "https://user-images.githubusercontent.com/107903370/200830608-559387d7-0574-4a10-877a-4aa37ecfe143.png" alt="logo" width= "200px" className={styles.NavLogo} /></div>
             <div style={{display:"flex"}} >
-            <Input placeholder='Search...everything you find ships for free' size='md' width= "1000px"  className={styles.NavInput}/>
+            <Input placeholder='Search...everything you find ships for free' size='md' width= "1100px"  className={styles.NavInput}/>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" className= {styles.searchIcon} >
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
 </svg>
@@ -70,6 +70,64 @@ export default function Navbar(){
             </div>     
 
 </div>
+        </div>
+        <div className={styles.NavbarBottom} >
+        <div>
+        <Menu style={{backgroundColor: "none"}} >
+  <MenuButton>
+    <label className={styles.furnitureLabel}>Furniture</label>
+  </MenuButton>
+  <MenuList>
+    <MenuItem>
+    <div className={styles.item1} >
+    <div style={{padding:"5px 30px"}} >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Living Room Furniture</li>
+                <li>Sofas & Couches</li>
+                <li>Sectionals</li>
+                <li>Ottomans & Poufs</li>
+                <li>Accent Chairs</li>
+                <li>Recliners </li>
+                <li>Coffee & accent Tables</li>
+                <li>TV Stands</li>
+                
+                <li className= {styles.firstElementinLIst}  >Patio & Outdoor Furniture</li>
+                
+                <li>Patio Furniture Sets</li>
+                <li>Sofa, Chairs & Sectionals</li>
+                <li>Dining Sets</li>
+                <li>Chaise Lounges</li>
+                <li>Adriondack Chairs</li>
+                <li>Hammocks & Swings</li>
+                <li>Outdoor Benches</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+    </div>
+    </MenuItem>
+    
+  </MenuList>
+</Menu>
+        </div>
         </div>
     </div>
 }
