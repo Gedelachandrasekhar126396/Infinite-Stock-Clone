@@ -4,11 +4,13 @@ import {
     Menu, MenuButton, MenuList, MenuItem, Box} from '@chakra-ui/react';
     import {NavLink} from "react-router-dom"
 export default function Navbar(){
-    return <div className= {styles.Navbar} >
-        
+    return <div  >
+        <div className= {styles.Navbar}>
         <div className={styles.NavbarTop} >
             
-            <div ><img src= "https://user-images.githubusercontent.com/107903370/200830608-559387d7-0574-4a10-877a-4aa37ecfe143.png" alt="logo" width= "200px" className={styles.NavLogo} /></div>
+            <div >
+              <NavLink to="/" >
+              <img src= "https://user-images.githubusercontent.com/107903370/200830608-559387d7-0574-4a10-877a-4aa37ecfe143.png" alt="logo" width= "200px" className={styles.NavLogo} /></NavLink></div>
             <div style={{display:"flex"}} >
             <Input placeholder='Search...everything you find ships for free' size='md' width= "1100px"  className={styles.NavInput}/>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" className= {styles.searchIcon} >
@@ -122,11 +124,576 @@ export default function Navbar(){
                 <li>Gaming Chairs</li>
             </ul>
         </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div>
+          <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/65b210b92510c9b395c9b1c3caa8aff87da49132/Carisa-Swivel-Barrel-Chair-with-Open-Back%2CSet-of-2.jpg" width="90%" alt="furniture" />
+          <p style={{fontSize:"20px"}} >  extra 10% off</p>
+          <label>select furniture*</label>
+          <ul>
+            <h3 style={{fontWeight:"bold", color:"black"}}>More Ways to Shop</h3>
+            <li style={{fontWeight:"bold", color:"red"}} >Featured Sales</li>
+            <li style={{fontWeight:"bold", color:"red"}} >New Arrivals</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Clearance</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Furniture Advice</li>
+          </ul>
+        </div>
     </div>
     </MenuItem>
     
   </MenuList>
 </Menu>
+        </div>
+    {/* end */}
+        <div>
+        <Menu style={{backgroundColor: "none"}} >
+  <MenuButton>
+    <label className={styles.furnitureLabel}>Rugs</label>
+  </MenuButton>
+  <MenuList>
+    <MenuItem>
+    <div className={styles.item1} >
+    <div style={{padding:"5px 30px"}} >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Area Rugs By Size</li>
+                <li>3'X 5'</li>
+                <li>4'X 6'</li>
+                <li>5'X 8'</li>
+                <li>6'X 9'</li>
+                <li>7'X 9' </li>
+                <li>8'X 10'</li>
+                <li>9'X 12'</li>
+                <li>10'X 14'</li>
+                <li>Runner</li>
+                
+                <li className= {styles.firstElementinLIst}  >Trending Rugs</li>
+                
+                <li>Washable Rugs</li>
+                <li>Round Rugs</li>
+                <li>Shag Rugs</li>
+                <li>Wool Rugs</li>
+                <li>Jute Rugs</li>
+                <li>Cowhide Rugs</li>
+                <li>Braided Rugs</li>
+                <li>Handmade Rugs</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Area Rugs By Color</li>
+                <li>Gray</li>
+                <li>Blue</li>
+                <li> Ivory</li>
+                <li>White</li>
+                <li>Black</li>
+                <li>Red</li>
+                <li>Brown</li>
+                <li>Orange</li>
+                <li>Pink</li>
+                <li className= {styles.firstElementinLIst}  >Area Rugs By Style</li>
+                <li>Boheain & Eclectic</li>
+                <li>Persian</li>
+                <li>Transistional</li>
+                <li>Geometric</li>
+                <li>Abstract</li>
+                <li>Solid</li>
+                <li>Floral & Botanical</li>
+               
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Area Rugs By Type</li>
+                <li>Area Rugs</li>
+                <li>Outdoor Rugs</li>
+                <li>Rug Pads</li>
+                <li>DKids & tweens Rugs</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div>
+          <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/b0ccd917a1f8f6f6fa1a6d30e0bee89c77ddd65a/Cerio-Abstract-Modern-Area-Rug.jpg?imwidth=320" width="90%" alt="furniture" />
+          <p style={{fontSize:"20px"}} >  extra 10% off</p>
+          <label>select furniture*</label>
+          <ul>
+            <h3 style={{fontWeight:"bold", color:"black"}}>More Ways to Shop</h3>
+            <li style={{fontWeight:"bold", color:"red"}} >Featured Sales</li>
+            <li style={{fontWeight:"bold", color:"red"}} >New Arrivals</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Clearance</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Furniture Advice</li>
+          </ul>
+        </div>
+    </div>
+    </MenuItem>
+    
+  </MenuList>
+</Menu>
+        </div>
+        {/* end */}
+        <div>
+        <Menu style={{backgroundColor: "none"}} >
+  <MenuButton>
+    <label className={styles.furnitureLabel}>Decor</label>
+  </MenuButton>
+  <MenuList>
+    <MenuItem>
+    <div className={styles.item1} >
+    <div style={{padding:"5px 30px"}} >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Living Room Furniture</li>
+                <li>Sofas & Couches</li>
+                <li>Sectionals</li>
+                <li>Ottomans & Poufs</li>
+                <li>Accent Chairs</li>
+                <li>Recliners </li>
+                <li>Coffee & accent Tables</li>
+                <li>TV Stands</li>
+                
+                <li className= {styles.firstElementinLIst}  >Patio & Outdoor Furniture</li>
+                
+                <li>Patio Furniture Sets</li>
+                <li>Sofa, Chairs & Sectionals</li>
+                <li>Dining Sets</li>
+                <li>Chaise Lounges</li>
+                <li>Adriondack Chairs</li>
+                <li>Hammocks & Swings</li>
+                <li>Outdoor Benches</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div>
+          <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/65b210b92510c9b395c9b1c3caa8aff87da49132/Carisa-Swivel-Barrel-Chair-with-Open-Back%2CSet-of-2.jpg" width="90%" alt="furniture" />
+          <ul>
+            <h3 style={{fontWeight:"bold", color:"black"}}>More Ways to Shop</h3>
+            <li style={{fontWeight:"bold", color:"red"}} >Featured Sales</li>
+            <li style={{fontWeight:"bold", color:"red"}} >New Arrivals</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Clearance</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Furniture Advice</li>
+          </ul>
+        </div>
+    </div>
+    </MenuItem>
+    
+  </MenuList>
+</Menu>
+        </div>
+        {/* end */}
+        <div>
+        <Menu style={{backgroundColor: "none"}} >
+  <MenuButton>
+    <label className={styles.furnitureLabel}>Bedding</label>
+  </MenuButton>
+  <MenuList>
+    <MenuItem>
+    <div className={styles.item1} >
+    <div style={{padding:"5px 30px"}} >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Living Room Furniture</li>
+                <li>Sofas & Couches</li>
+                <li>Sectionals</li>
+                <li>Ottomans & Poufs</li>
+                <li>Accent Chairs</li>
+                <li>Recliners </li>
+                <li>Coffee & accent Tables</li>
+                <li>TV Stands</li>
+                
+                <li className= {styles.firstElementinLIst}  >Patio & Outdoor Furniture</li>
+                
+                <li>Patio Furniture Sets</li>
+                <li>Sofa, Chairs & Sectionals</li>
+                <li>Dining Sets</li>
+                <li>Chaise Lounges</li>
+                <li>Adriondack Chairs</li>
+                <li>Hammocks & Swings</li>
+                <li>Outdoor Benches</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div>
+          <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/65b210b92510c9b395c9b1c3caa8aff87da49132/Carisa-Swivel-Barrel-Chair-with-Open-Back%2CSet-of-2.jpg" width="90%" alt="furniture" />
+          <ul>
+            <h3 style={{fontWeight:"bold", color:"black"}}>More Ways to Shop</h3>
+            <li style={{fontWeight:"bold", color:"red"}} >Featured Sales</li>
+            <li style={{fontWeight:"bold", color:"red"}} >New Arrivals</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Clearance</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Furniture Advice</li>
+          </ul>
+        </div>
+    </div>
+    </MenuItem>
+    
+  </MenuList>
+</Menu>
+        </div>
+        {/* end */}
+        <div>
+        <Menu style={{backgroundColor: "none"}} >
+  <MenuButton>
+    <label className={styles.furnitureLabel}>Home Improvement</label>
+  </MenuButton>
+  <MenuList>
+    <MenuItem>
+    <div className={styles.item1} >
+    <div style={{padding:"5px 30px"}} >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Living Room Furniture</li>
+                <li>Sofas & Couches</li>
+                <li>Sectionals</li>
+                <li>Ottomans & Poufs</li>
+                <li>Accent Chairs</li>
+                <li>Recliners </li>
+                <li>Coffee & accent Tables</li>
+                <li>TV Stands</li>
+                
+                <li className= {styles.firstElementinLIst}  >Patio & Outdoor Furniture</li>
+                
+                <li>Patio Furniture Sets</li>
+                <li>Sofa, Chairs & Sectionals</li>
+                <li>Dining Sets</li>
+                <li>Chaise Lounges</li>
+                <li>Adriondack Chairs</li>
+                <li>Hammocks & Swings</li>
+                <li>Outdoor Benches</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div>
+          <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/65b210b92510c9b395c9b1c3caa8aff87da49132/Carisa-Swivel-Barrel-Chair-with-Open-Back%2CSet-of-2.jpg" width="90%" alt="furniture" />
+          <ul>
+            <h3 style={{fontWeight:"bold", color:"black"}}>More Ways to Shop</h3>
+            <li style={{fontWeight:"bold", color:"red"}} >Featured Sales</li>
+            <li style={{fontWeight:"bold", color:"red"}} >New Arrivals</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Clearance</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Furniture Advice</li>
+          </ul>
+        </div>
+    </div>
+    </MenuItem>
+    
+  </MenuList>
+</Menu>
+        </div>
+        {/* end */}
+        <div>
+        <Menu style={{backgroundColor: "none"}} >
+  <MenuButton>
+    <label className={styles.furnitureLabel}>Kitchen</label>
+  </MenuButton>
+  <MenuList>
+    <MenuItem>
+    <div className={styles.item1} >
+    <div style={{padding:"5px 30px"}} >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Living Room Furniture</li>
+                <li>Sofas & Couches</li>
+                <li>Sectionals</li>
+                <li>Ottomans & Poufs</li>
+                <li>Accent Chairs</li>
+                <li>Recliners </li>
+                <li>Coffee & accent Tables</li>
+                <li>TV Stands</li>
+                
+                <li className= {styles.firstElementinLIst}  >Patio & Outdoor Furniture</li>
+                
+                <li>Patio Furniture Sets</li>
+                <li>Sofa, Chairs & Sectionals</li>
+                <li>Dining Sets</li>
+                <li>Chaise Lounges</li>
+                <li>Adriondack Chairs</li>
+                <li>Hammocks & Swings</li>
+                <li>Outdoor Benches</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div>
+          <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/65b210b92510c9b395c9b1c3caa8aff87da49132/Carisa-Swivel-Barrel-Chair-with-Open-Back%2CSet-of-2.jpg" width="90%" alt="furniture" />
+          <ul>
+            <h3 style={{fontWeight:"bold", color:"black"}}>More Ways to Shop</h3>
+            <li style={{fontWeight:"bold", color:"red"}} >Featured Sales</li>
+            <li style={{fontWeight:"bold", color:"red"}} >New Arrivals</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Clearance</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Furniture Advice</li>
+          </ul>
+        </div>
+    </div>
+    </MenuItem>
+    
+  </MenuList>
+</Menu>
+        </div>
+        {/* end */}
+        <div>
+        <Menu style={{backgroundColor: "none"}} >
+  <MenuButton>
+    <label className={styles.furnitureLabel}>Outdoor</label>
+  </MenuButton>
+  <MenuList>
+    <MenuItem>
+    <div className={styles.item1} >
+    <div style={{padding:"5px 30px"}} >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Living Room Furniture</li>
+                <li>Sofas & Couches</li>
+                <li>Sectionals</li>
+                <li>Ottomans & Poufs</li>
+                <li>Accent Chairs</li>
+                <li>Recliners </li>
+                <li>Coffee & accent Tables</li>
+                <li>TV Stands</li>
+                
+                <li className= {styles.firstElementinLIst}  >Patio & Outdoor Furniture</li>
+                
+                <li>Patio Furniture Sets</li>
+                <li>Sofa, Chairs & Sectionals</li>
+                <li>Dining Sets</li>
+                <li>Chaise Lounges</li>
+                <li>Adriondack Chairs</li>
+                <li>Hammocks & Swings</li>
+                <li>Outdoor Benches</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li className= {styles.firstElementinLIst}  >Bedroom Furniture</li>
+                <li>Beds</li>
+                <li>Headboards</li>
+                <li>Bed Frames</li>
+                <li>Dresses & Chests</li>
+                <li>Nighstands</li>
+                <li>Armories & Wardobes</li>
+                <li className= {styles.firstElementinLIst}  >Office Furniture</li>
+                <li>Desks</li>
+                <li>Office Chairs</li>
+                <li>Small Space Desks</li>
+                <li>Office Shelves & Storage</li>
+                <li>File Cabinets</li>
+                <li>Office & Conference Tables</li>
+                <li>Bookshelves</li>
+                <li>Gaming Chairs</li>
+            </ul>
+        </div>
+        <div>
+          <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/65b210b92510c9b395c9b1c3caa8aff87da49132/Carisa-Swivel-Barrel-Chair-with-Open-Back%2CSet-of-2.jpg" width="90%" alt="furniture" />
+          <p style={{fontSize:"20px"}} >  extra 10% off</p>
+          <label>select furniture*</label>
+          <ul>
+            <h3 style={{fontWeight:"bold", color:"black"}}>More Ways to Shop</h3>
+            <li style={{fontWeight:"bold", color:"red"}} >Featured Sales</li>
+            <li style={{fontWeight:"bold", color:"red"}} >New Arrivals</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Clearance</li>
+            <li style={{fontWeight:"bold", color:"red"}} >Furniture Advice</li>
+          </ul>
+        </div>
+    </div>
+    </MenuItem>
+    
+  </MenuList>
+</Menu>
+        </div>
         </div>
         </div>
     </div>
