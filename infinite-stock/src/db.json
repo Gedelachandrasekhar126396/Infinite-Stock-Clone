@@ -2,11 +2,247 @@
     "products": [
       {
         "id": 1,
-        "title": "react tshirt",
-        "category": "pant",
-        "gender": "male",
-        "imageSrc": "https://picsum.photos/seed/picsum6/420/260",
-        "price": "23.00"
-      }
+        "rating": "4.7/5",
+        "category": "TeePee Tent Twin Floor Bed",
+        "sale": "Sale Starts at INR 15005.06",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/b134112b90b31e831d272f935361423b260877b4/TeePee-Tent-Twin-Bed.jpg?imwidth=480&impolicy=medium"
+        
+      },
+      {
+        "id": 2,
+        "rating": "4.5/5",
+        "category": "mDesign Large Kitchen Counter Dish Drying Rack with Swivel Spout - 16.3 X 13.7",
+        "sale": "Sale Starts at INR 3931.25",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/c2535edbd7fddb37bf10de4fcbe0629368acc712/mDesign-Large-Kitchen-Counter-Dish-Drying-Rack-with-Swivel-Spout.jpg?imwidth=480&impolicy=medium"
+        
+      },
+      {
+        "id": 3,
+        "rating": "4.5/5",
+        "category": "Laguna Poly Outdoor Folding Adirondack Chair",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/9af9e0c0ff8225a1b95d62c1c5718b174eb7284c/Laguna-Poly-Outdoor-Folding-Adirondack-Chair.jpg?imwidth=480&impolicy=medium"
+        
+      },
+      {
+        "id": 4,
+        "rating": "4.5/5",
+        "category": "50 Inch Bar Cabinet with LED Light Removable Wine Rack",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/fb8125a61946c6ab675402183a693a6e57d32538/50-Inch-Bar-Cabinet-Wine-Rack-with-LED-Light.jpg?imwidth=480&impolicy=medium"
+        
+      },
+      {
+        "id": 5,
+        "rating": "4.5/5",
+        "category": "Avelina Nailhead Trim Comfy Accent Armchair with Rolled Arms",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/9dd4ae7d60e7b7c14621eca2e953e4a4c129c9c6/Avelina-Nailhead-Trim-Comfy-Accent-Armchair-with-Rolled-Arms.jpg?imwidth=480&impolicy=medium"
+        
+      },{
+        "id": 6,
+        "rating": "4.5/5",
+        "category": "SAFAVIEH California Shag Izat 2-inch Thick Area Rug",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/fa0de7e5f6db966631851fdd3f058a6b965ff170/SAFAVIEH-California-Shag-Izat-2-inch-Thick-Rug.jpg?imwidth=480&impolicy=medium"
+        
+      },
+      {
+        "id": 7,
+        "rating": "4.5/5",
+        "category": "KRAUS Kore Workstation Undermount Stainless Steel Kitchen Sink",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/f8263239bd3ee2db8801150758506fbecac775c8/KRAUS-Kore-Workstation-Undermount-Stainless-Steel-Kitchen-Sink.jpg?imwidth=480&impolicy=medium"
+        
+      },
+      {
+        "id": 8,
+        "rating": "4.5/5",
+        "category": "Indoor Plant Stand Pack of 2, 6-Tier Flower Rack for Home Garden",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/f8263239bd3ee2db8801150758506fbecac775c8/KRAUS-Kore-Workstation-Undermount-Stainless-Steel-Kitchen-Sink.jpg?imwidth=480&impolicy=medium"
+        
+      },{
+        
+            "id": 9,
+            "rating": "4.5/5",
+            "category": "Indoor Plant Stand Pack of 2, 6-Tier Flower Rack for Home Garden",
+            "sale": "Sale Starts at INR 14670.69",
+            "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/007c2613eff984202fe672f592574f43b83418a4/Indoor-Plant-Stand-Pack-of-2%2C-6-Tier-Flower-Rack-for-Home-Garden.jpg?imwidth=480&impolicy=medium"
+            
+          
+      },
+      {
+        
+        "id": 10,
+        "rating": "4.5/5",
+        "category": "Rustic Wooden Floating Wall Shelves (Set of 2)",
+        "sale": "See Price in Cart",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/d14a8ea2336e8cbc99771690f2b44d1942d3f6bd/Floating-Shelves-Rustic-Wood-Wall-Shelf-USA-Handmade-Set-of-2.jpg?imwidth=480&impolicy=medium"
+        
+      
+  },{
+    "id": 11,
+    "rating": "4.7/5",
+    "category": "TeePee Tent Twin Floor Bed",
+    "sale": "Sale Starts at INR 15005.06",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/b134112b90b31e831d272f935361423b260877b4/TeePee-Tent-Twin-Bed.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 12,
+    "rating": "4.5/5",
+    "category": "mDesign Large Kitchen Counter Dish Drying Rack with Swivel Spout - 16.3 X 13.7",
+    "sale": "Sale Starts at INR 3931.25",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/c2535edbd7fddb37bf10de4fcbe0629368acc712/mDesign-Large-Kitchen-Counter-Dish-Drying-Rack-with-Swivel-Spout.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 13,
+    "rating": "4.5/5",
+    "category": "Laguna Poly Outdoor Folding Adirondack Chair",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/9af9e0c0ff8225a1b95d62c1c5718b174eb7284c/Laguna-Poly-Outdoor-Folding-Adirondack-Chair.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 14,
+    "rating": "4.5/5",
+    "category": "50 Inch Bar Cabinet with LED Light Removable Wine Rack",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/fb8125a61946c6ab675402183a693a6e57d32538/50-Inch-Bar-Cabinet-Wine-Rack-with-LED-Light.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 15,
+    "rating": "4.5/5",
+    "category": "Avelina Nailhead Trim Comfy Accent Armchair with Rolled Arms",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/9dd4ae7d60e7b7c14621eca2e953e4a4c129c9c6/Avelina-Nailhead-Trim-Comfy-Accent-Armchair-with-Rolled-Arms.jpg?imwidth=480&impolicy=medium"
+    
+  },{
+    "id": 16,
+    "rating": "4.5/5",
+    "category": "SAFAVIEH California Shag Izat 2-inch Thick Area Rug",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/fa0de7e5f6db966631851fdd3f058a6b965ff170/SAFAVIEH-California-Shag-Izat-2-inch-Thick-Rug.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 17,
+    "rating": "4.5/5",
+    "category": "KRAUS Kore Workstation Undermount Stainless Steel Kitchen Sink",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/f8263239bd3ee2db8801150758506fbecac775c8/KRAUS-Kore-Workstation-Undermount-Stainless-Steel-Kitchen-Sink.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 18,
+    "rating": "4.5/5",
+    "category": "Indoor Plant Stand Pack of 2, 6-Tier Flower Rack for Home Garden",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/f8263239bd3ee2db8801150758506fbecac775c8/KRAUS-Kore-Workstation-Undermount-Stainless-Steel-Kitchen-Sink.jpg?imwidth=480&impolicy=medium"
+    
+  },{
+    
+        "id": 19,
+        "rating": "4.5/5",
+        "category": "Indoor Plant Stand Pack of 2, 6-Tier Flower Rack for Home Garden",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/007c2613eff984202fe672f592574f43b83418a4/Indoor-Plant-Stand-Pack-of-2%2C-6-Tier-Flower-Rack-for-Home-Garden.jpg?imwidth=480&impolicy=medium"
+        
+      
+  },
+  {
+    
+    "id": 20,
+    "rating": "4.5/5",
+    "category": "Rustic Wooden Floating Wall Shelves (Set of 2)",
+    "sale": "See Price in Cart",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/d14a8ea2336e8cbc99771690f2b44d1942d3f6bd/Floating-Shelves-Rustic-Wood-Wall-Shelf-USA-Handmade-Set-of-2.jpg?imwidth=480&impolicy=medium"
+    
+  
+},{
+    "id": 21,
+    "rating": "4.7/5",
+    "category": "TeePee Tent Twin Floor Bed",
+    "sale": "Sale Starts at INR 15005.06",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/b134112b90b31e831d272f935361423b260877b4/TeePee-Tent-Twin-Bed.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 22,
+    "rating": "4.5/5",
+    "category": "mDesign Large Kitchen Counter Dish Drying Rack with Swivel Spout - 16.3 X 13.7",
+    "sale": "Sale Starts at INR 3931.25",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/c2535edbd7fddb37bf10de4fcbe0629368acc712/mDesign-Large-Kitchen-Counter-Dish-Drying-Rack-with-Swivel-Spout.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 23,
+    "rating": "4.5/5",
+    "category": "Laguna Poly Outdoor Folding Adirondack Chair",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/9af9e0c0ff8225a1b95d62c1c5718b174eb7284c/Laguna-Poly-Outdoor-Folding-Adirondack-Chair.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 24,
+    "rating": "4.5/5",
+    "category": "50 Inch Bar Cabinet with LED Light Removable Wine Rack",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/fb8125a61946c6ab675402183a693a6e57d32538/50-Inch-Bar-Cabinet-Wine-Rack-with-LED-Light.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 25,
+    "rating": "4.5/5",
+    "category": "Avelina Nailhead Trim Comfy Accent Armchair with Rolled Arms",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/9dd4ae7d60e7b7c14621eca2e953e4a4c129c9c6/Avelina-Nailhead-Trim-Comfy-Accent-Armchair-with-Rolled-Arms.jpg?imwidth=480&impolicy=medium"
+    
+  },{
+    "id": 26,
+    "rating": "4.5/5",
+    "category": "SAFAVIEH California Shag Izat 2-inch Thick Area Rug",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/fa0de7e5f6db966631851fdd3f058a6b965ff170/SAFAVIEH-California-Shag-Izat-2-inch-Thick-Rug.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 27,
+    "rating": "4.5/5",
+    "category": "KRAUS Kore Workstation Undermount Stainless Steel Kitchen Sink",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/f8263239bd3ee2db8801150758506fbecac775c8/KRAUS-Kore-Workstation-Undermount-Stainless-Steel-Kitchen-Sink.jpg?imwidth=480&impolicy=medium"
+    
+  },
+  {
+    "id": 28,
+    "rating": "4.5/5",
+    "category": "Indoor Plant Stand Pack of 2, 6-Tier Flower Rack for Home Garden",
+    "sale": "Sale Starts at INR 14670.69",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/f8263239bd3ee2db8801150758506fbecac775c8/KRAUS-Kore-Workstation-Undermount-Stainless-Steel-Kitchen-Sink.jpg?imwidth=480&impolicy=medium"
+    
+  },{
+    
+        "id": 29,
+        "rating": "4.5/5",
+        "category": "Indoor Plant Stand Pack of 2, 6-Tier Flower Rack for Home Garden",
+        "sale": "Sale Starts at INR 14670.69",
+        "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/007c2613eff984202fe672f592574f43b83418a4/Indoor-Plant-Stand-Pack-of-2%2C-6-Tier-Flower-Rack-for-Home-Garden.jpg?imwidth=480&impolicy=medium"
+        
+      
+  },
+  {
+    
+    "id": 30,
+    "rating": "4.5/5",
+    "category": "Rustic Wooden Floating Wall Shelves (Set of 2)",
+    "sale": "See Price in Cart",
+    "imageSrc": "https://ak1.ostkcdn.com/images/products/is/images/direct/d14a8ea2336e8cbc99771690f2b44d1942d3f6bd/Floating-Shelves-Rustic-Wood-Wall-Shelf-USA-Handmade-Set-of-2.jpg?imwidth=480&impolicy=medium"
+    
+  
+}
     ]
   }
