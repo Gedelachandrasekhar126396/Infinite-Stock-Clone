@@ -75,7 +75,7 @@ export default function Home(){
         <Grid templateColumns='repeat(4, 1fr)' gap={6} className={styles.SeasonalUpdates} >
   <GridItem style={{backgroundColor: "#f5f6f7"}} ><img src="https://ak1.ostkcdn.com/img/mxc/10272022-MOPS-HP-Frame1.jpg?imwidth=1920" alt="outdoor" />
     <Heading style={{textAlign:"left"}} as='h3' size='lg'>home gifts</Heading>
-    <div style={{textAlign:"left"}} >Gift-ready home goods for everyone on your list.</div>
+    <div style={{textAlign:"left"}} >Gift-ready home goods for everyone on your .</div>
   </GridItem>
   <GridItem style={{backgroundColor: "#f5f6f7"}} ><img src="https://ak1.ostkcdn.com/img/mxc/10272022-MOPS-HP-Frame2.jpg?imwidth=1920" alt="Home Improvement" />
   <Heading style={{textAlign:"left"}} as='h3' size='lg'>kitchen appliances</Heading>
