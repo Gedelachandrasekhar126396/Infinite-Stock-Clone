@@ -2,7 +2,8 @@ import styles from "../cssFiles/NavbarDesign.module.css";
 import { Input } from '@chakra-ui/react';
 import {
     Menu, MenuButton, MenuList, MenuItem, Box} from '@chakra-ui/react';
-    import {NavLink} from "react-router-dom"
+    import {NavLink} from "react-router-dom";
+    
 export default function Navbar(){
     return <div  >
         <div className= {styles.Navbar}>
@@ -29,7 +30,7 @@ export default function Navbar(){
 <label>Login</label>
   </MenuButton>
   <MenuList>
-    <MenuItem className= {styles.SignIn} ><strong>Sign In</strong></MenuItem>
+ <NavLink to="/signup" >   <MenuItem className= {styles.SignIn} ><strong>Sign In</strong></MenuItem></NavLink>
     
     
     <MenuItem>

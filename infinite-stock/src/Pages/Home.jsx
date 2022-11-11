@@ -70,7 +70,8 @@ export default function Home(){
         </div>
         
         <div className={styles.home5} >
-        <Heading as="h3" size="xl" style={{textAlign:"center"}}>Seasonal Updates to Warm up Your Winter</Heading>
+        <Heading as="h3" style={{textAlign:"center",fontSize:"35px"}}>Seasonal Updates to Warm up Your Winter</Heading>
+        
         <Grid templateColumns='repeat(4, 1fr)' gap={6} className={styles.SeasonalUpdates} >
   <GridItem style={{backgroundColor: "#f5f6f7"}} ><img src="https://ak1.ostkcdn.com/img/mxc/10272022-MOPS-HP-Frame1.jpg?imwidth=1920" alt="outdoor" />
     <Heading style={{textAlign:"left"}} as='h3' size='lg'>home gifts</Heading>
@@ -143,15 +144,15 @@ export default function Home(){
         <Heading as="h3" size="xl" style={{textAlign:"center",color: "#2F3337",fontSize:"30px"}}>We've Got Your Style</Heading>
         <Grid templateColumns='repeat(3, 1fr)' gap={6} className={styles.SeasonalUpdates} >
   <GridItem style={{backgroundColor: "#f5f6f7"}} ><img src="https://ak1.ostkcdn.com/img/mxc/030822-SBS-Farmhouse.jpg?imwidth=1920" alt="outdoor" />
-    <Heading style={{textAlign:"left"}} as='h3' size='lg'>Farmhouse</Heading>
+    <Heading style={{textAlign:"left",fontSize:"25px", padding:"10px 0px"}} as='h3'>Farmhouse</Heading>
     <div style={{textAlign:"left"}} >Country comforts abound in this fresh take on rustic home decor.</div>
   </GridItem>
   <GridItem style={{backgroundColor: "#f5f6f7"}} ><img src="https://ak1.ostkcdn.com/img/mxc/030822-SBS-MidCenMod.jpg?imwidth=1920" alt="Home Improvement" />
-  <Heading style={{textAlign:"left"}} as='h3' size='lg'>Mid-Century Modern</Heading>
+  <Heading style={{textAlign:"left",fontSize:"25px", padding:"10px 0px"}} as='h3'>Mid-Century Modern</Heading>
     <div style={{textAlign:"left"}} >Retro meets modern chic in these clean lines and vibrant tones.</div>
   </GridItem>
   <GridItem style={{backgroundColor: "#f5f6f7"}} ><img src="https://ak1.ostkcdn.com/img/mxc/030822-SBS-Traditional.jpg?imwidth=1920" alt="Storage" />
-  <Heading style={{textAlign:"left"}} as='h3' size='lg'>Traditional</Heading>
+  <Heading style={{textAlign:"left",fontSize:"25px", padding:"10px 0px"}} as='h3'>Traditional</Heading>
     <div style={{textAlign:"left"}} >Cozy designs, clean and classic, give this style it’s signature appeal.</div>
   </GridItem>
 </Grid>

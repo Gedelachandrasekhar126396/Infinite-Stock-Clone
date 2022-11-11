@@ -1,0 +1,12 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "react tshirt",
+        "category": "pant",
+        "gender": "male",
+        "imageSrc": "https://picsum.photos/seed/picsum6/420/260",
+        "price": "23.00"
+      }
+    ]
+  }

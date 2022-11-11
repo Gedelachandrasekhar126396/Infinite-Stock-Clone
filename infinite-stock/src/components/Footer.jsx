@@ -39,7 +39,7 @@ export default function Footer(){
         <div >
             <ul>
                 <li className= {styles.firstElementinLIst}  >MORE WAYS TO SHOP</li>
-                <li>Tips % Ideas</li>
+                <li>Tips & Ideas</li>
                 <li>Deals</li>
                 <li>Clearance</li>
                 <li>New Arrivals</li>
