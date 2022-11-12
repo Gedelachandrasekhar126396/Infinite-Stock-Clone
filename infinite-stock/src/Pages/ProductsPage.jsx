@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { Button, Heading } from "@chakra-ui/react";
 import axios from "axios"
 import { useEffect, useState } from "react";
+import { Checkbox } from '@chakra-ui/react'
 import {
     Accordion,
     AccordionItem,
@@ -38,7 +39,7 @@ export default function ProductsPage(){
     <h2>
       <AccordionButton>
         <Box flex='1' textAlign='left'>
-        <b>Category</b>
+        <b>Categories</b>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -59,16 +60,56 @@ export default function ProductsPage(){
     <h2>
       <AccordionButton>
         <Box flex='1' textAlign='left'>
-        <b>Category</b>
+        <b>Price</b>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-    
+    <p className={styles.Leftlist} ><Checkbox >Under INR 3654 (3,858) </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >INR 3654 - INR 7308 (5697) </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >INR 7308 - INR 13704 (5070) </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >INR 13704-INR 36544 (5795) </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >INR 36544+ (4586) </Checkbox></p>
+   <div style={{display:"flex",justifyContent:"space-between"}} >
+   <Button colorScheme='gray' variant='outline' ><label>Minimum</label> </Button>
+    <Button colorScheme='gray' variant='outline' ><label>Maximum</label> </Button>
+   </div> <br/>
+   <Button width="270px" colorScheme='blue'>Apply</Button>
     </AccordionPanel>
   </AccordionItem>
-
+  <AccordionItem  >
+    <h2>
+      <AccordionButton>
+        <Box flex='1' textAlign='left'>
+        <b>Color</b>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    <p className={styles.Leftlist} ><Checkbox >Red </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Blue </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Green </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Yellow </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Violet </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Indigo </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Orange </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Purple </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Gray </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Pink </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Maroon </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >White </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Green-Yellow </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Cobalt Blue </Checkbox></p>
+    <p className={styles.Leftlist} ><Checkbox >Teal </Checkbox></p>
+   <div style={{display:"flex",justifyContent:"space-between"}} >
+   <Button colorScheme='gray' variant='outline' ><label>Minimum</label> </Button>
+    <Button colorScheme='gray' variant='outline' ><label>Maximum</label> </Button>
+   </div> <br/>
+   <Button width="270px" colorScheme='blue'>Apply</Button>
+    </AccordionPanel>
+  </AccordionItem>
   
 </Accordion>
                 </div>

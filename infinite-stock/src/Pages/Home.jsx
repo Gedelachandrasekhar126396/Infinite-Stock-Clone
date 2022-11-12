@@ -17,7 +17,7 @@ export default function Home(){
         
         <Heading>Limited-Time Deals</Heading>
        <div>
-       <NavLink to="/" >  <img src="https://user-images.githubusercontent.com/107903370/201057196-800872a0-a4ad-4243-9c27-c0bc3e97036a.png" alt="Limited-Deals" />
+       <NavLink to="/products" >  <img src="https://user-images.githubusercontent.com/107903370/201057196-800872a0-a4ad-4243-9c27-c0bc3e97036a.png" alt="Limited-Deals" />
        </NavLink>      </div>
         <div className={styles.home3} >
             <img src="https://user-images.githubusercontent.com/107903370/201058706-66adc268-50a2-4b52-9c16-510454f15906.png" alt="deck-your-halls" />
