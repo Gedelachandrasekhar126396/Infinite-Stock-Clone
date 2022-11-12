@@ -9,12 +9,14 @@ export default function AppContextProvider({children}){
     const navigate = useNavigate()
 
     const Login =(email,pass)=>{
+        let flag = false;
         for(let i=0;i<data.length;i++){
             if(data[i].email===email && data[i].password===pass){
-                setAuth(true)
+                setAuth(!isAuth)
+                flag = true
             }
         }
-        isAuth ? navigate("/") : alert(`Invalid credentials`)
+        flag ? navigate("/") : alert(`Invalid credentials`)
         
         console.log(email,pass,data)
 
