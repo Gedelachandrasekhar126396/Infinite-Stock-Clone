@@ -33,6 +33,7 @@ export default function AppContextProvider({children}){
             password:password
           }
         }).then(()=>getData())
+        alert("Sign Up Successful!")
       }
       function getData(){
         axios.get("https://basic-api-list.herokuapp.com/users")

@@ -10,8 +10,8 @@ export default function Home(){
     <div> <Navbar/></div>
     <div className= {styles.leftBox} style={{padding :"0px 50px"}} >
         
-        <img src="https://user-images.githubusercontent.com/107903370/201052827-85213dca-fc09-4c0b-8eca-b554b08698e6.png" alt="bodyFirstImage" />
-        
+    <NavLink to="/products" >   <img src="https://user-images.githubusercontent.com/107903370/201052827-85213dca-fc09-4c0b-8eca-b554b08698e6.png" alt="bodyFirstImage" />
+    </NavLink> 
     </div>
     <div className={styles.head2} >
         
