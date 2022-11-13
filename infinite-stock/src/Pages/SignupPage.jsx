@@ -20,6 +20,7 @@ export default function Signup(){
   const [newUser,setNewUser] = useState(initState);
   const handleChange2 =(e)=>{
     SetLoginUser({...LoginUser,[e.target.name]:e.target.value})
+    setNewUser("")
   }
   const handleChange=(e)=>{
   setNewUser({...newUser, [e.target.name]: e.target.value })
