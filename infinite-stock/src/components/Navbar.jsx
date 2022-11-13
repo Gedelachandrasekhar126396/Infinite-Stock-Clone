@@ -5,7 +5,7 @@ import {
     import {NavLink} from "react-router-dom";
     
 export default function Navbar(){
-    return <div  >
+    return <div className={styles.Navbar}  >
         <div className= {styles.Navbar}>
         <div className={styles.NavbarTop} >
             
@@ -35,7 +35,7 @@ export default function Navbar(){
     
     <MenuItem>
     <Box style={{padding:"10px 0px"}} >
-        <NavLink><strong style={{fontSize:"20px"}} className={styles.SignIn} >Create an Account</strong></NavLink>
+    <NavLink to="/signup" > <strong style={{fontSize:"20px"}} className={styles.SignIn} >Create an Account</strong></NavLink>
         <h4>Track orders, save items <br/> to lists and more!</h4>
     </Box>
     </MenuItem>
